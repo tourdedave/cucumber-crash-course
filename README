@@ -1,0 +1,7 @@
+Here is a quick end-to-end example of how to perform a web test in a headless fashion using Selenium through Capybara.
+
+It is perfect for running on a CI server (e.g. Jenkins) or locally.
+
+The example scenario is simple -- go to Google, search for "Hello World!", and verify that you got results containing that text.
+
+Happy Testing!
