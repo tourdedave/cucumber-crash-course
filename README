@@ -4,4 +4,6 @@ It is perfect for running on a CI server (e.g. Jenkins) or locally.
 
 The example scenario is simple -- go to Google, search for "Hello World!", and verify that you got results containing that text.
 
+You can see this in action at http://www.screencast.com/t/3GSd3Ip3M
+
 Happy Testing!
