@@ -4,9 +4,10 @@ end
 
 When /^I search for "([^"]*)"$/ do |arg1|
   @search_phrase = arg1
-  within(:css, "#gbqfqw") do
+  within("#gbqfqw") do
     fill_in 'q', :with => @search_phrase
   end
+  find("#gbqfb").click
 end
 
 Then /^I should see results containing the phrase$/ do
